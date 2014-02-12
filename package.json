@@ -1,0 +1,39 @@
+{
+	"name": "lode",
+	"version": "0.0.1",
+	"description": "The easiest way to use JavaScript modules.",
+	"main": "lode",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:unscriptable/lode.git"
+	},
+	"keywords": [
+		"module",
+		"package",
+		"bower",
+		"npm",
+		"amd",
+		"node",
+		"commonjs",
+		"es6"
+	],
+	"author": "John Hann <john@unscriptable.com>",
+	"contributors": [
+		{
+		  "name": "John Hann",
+		  "web": "http://unscriptable.com"
+		},
+		{
+		  "name": "Brian Cavalier",
+		  "web": "http://hovercraftstudios.com"
+		}
+	],
+	"devDependencies": {
+		"es6-module-loader": "https://github.com/ModuleLoader/es6-module-loader/archive/v0.4.3.tar.gz"
+	},
+	"scripts" : {
+		"start": "serv .",
+		"build": "node node_modules/cram/cram.js --config ./build/createDefaultPipeline.json --output ./build/_lodePipeline.js"
+	}
+}

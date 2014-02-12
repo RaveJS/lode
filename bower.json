@@ -1,0 +1,32 @@
+{
+	"name": "lode",
+	"version": "0.0.1",
+	"description": "The easiest way to use JavaScript modules.",
+	"main": "lode",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:RaveJS/lode.git"
+	},
+	"keywords": [
+		"module",
+		"package",
+		"bower",
+		"npm",
+		"amd",
+		"node",
+		"commonjs",
+		"es6"
+	],
+	"author": "John Hann <john@unscriptable.com>",
+	"contributors": [
+		{
+		  "name": "John Hann",
+		  "web": "http://unscriptable.com"
+		},
+		{
+		  "name": "Brian Cavalier",
+		  "web": "http://hovercraftstudios.com"
+		}
+	]
+}
